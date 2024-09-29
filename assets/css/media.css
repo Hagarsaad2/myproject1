@@ -18,9 +18,36 @@
 {
     
 }
-@media(max-width:576px) and(min-width:426px)
+@media(max-width:900px)
 {
+   nav .contain .navbar-nav .nav-item .nav-link
+   {
+      font-size: 11px;
     
+   }
+     .choice .contain .row .card 
+     {
+      margin-bottom: 20px;
+     }
+     .choice .contain .row .card p
+     {
+      font-size: 15px;
+      line-height: 30px;
+     }
+     .about .contain .swiper .swiper-slide .about-head h1::after
+    {
+    right: 200px; 
+    }
+    .team .contain .team-head h1::after
+   {
+    right: 320px;
+   }
+   .contact .contain .row .col .form-group label
+{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+   
 }
 @media(max-width:425px) and(min-width:376px)
 {
